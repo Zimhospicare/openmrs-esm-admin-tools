@@ -1,6 +1,6 @@
 import { getAsyncLifecycle, registerBreadcrumbs } from '@openmrs/esm-framework';
 
-const moduleName = '@openmrs/esm-reports-app';
+const moduleName = '@zimhospicare/esm-reports-app';
 
 const options = {
   featureName: 'reports',

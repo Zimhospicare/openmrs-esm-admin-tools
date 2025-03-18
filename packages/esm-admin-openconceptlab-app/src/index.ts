@@ -1,7 +1,7 @@
 import { getAsyncLifecycle, defineConfigSchema } from '@openmrs/esm-framework';
 import { configSchema } from './config-schema';
 
-const moduleName = '@openmrs/esm-openconceptlab-app';
+const moduleName = '@zimhospicare/esm-openconceptlab-app';
 
 const options = {
   featureName: 'openconceptlab',

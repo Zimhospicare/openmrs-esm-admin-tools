@@ -5643,25 +5643,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@openmrs/esm-openconceptlab-app@workspace:packages/esm-admin-openconceptlab-app":
-  version: 0.0.0-use.local
-  resolution: "@openmrs/esm-openconceptlab-app@workspace:packages/esm-admin-openconceptlab-app"
-  dependencies:
-    "@carbon/react": "npm:^1.37.0"
-    lodash-es: "npm:^4.17.21"
-    swr: "npm:^2.2.5"
-  peerDependencies:
-    "@openmrs/esm-framework": 6.x
-    dayjs: 1.x
-    react: 18.x
-    react-dom: 18.x
-    react-i18next: 11.x
-    react-router-dom: 6.x
-    rxjs: 6.x
-    swr: 2.x
-  languageName: unknown
-  linkType: soft
-
 "@openmrs/esm-react-utils@npm:6.1.1-pre.2721":
   version: 6.1.1-pre.2721
   resolution: "@openmrs/esm-react-utils@npm:6.1.1-pre.2721"
@@ -5688,27 +5669,6 @@ __metadata:
   checksum: 10/701182db750ad7041410340c58e904077856c5f52081d448b49bdefa0350b50320b9289de37159300d39b5978209ec5a6d5551da5b1319584be2b8a46dd4bba4
   languageName: node
   linkType: hard
-
-"@openmrs/esm-reports-app@workspace:packages/esm-reports-app":
-  version: 0.0.0-use.local
-  resolution: "@openmrs/esm-reports-app@workspace:packages/esm-reports-app"
-  dependencies:
-    "@carbon/react": "npm:^1.33.1"
-    "@datasert/cronjs-matcher": "npm:^1.2.0"
-    "@datasert/cronjs-parser": "npm:^1.2.0"
-    cronstrue: "npm:^2.41.0"
-    dayjs: "npm:^1.8.36"
-    lodash-es: "npm:^4.17.21"
-    react-image-annotate: "npm:^1.8.0"
-  peerDependencies:
-    "@openmrs/esm-framework": "*"
-    dayjs: 1.x
-    react: 18.x
-    react-i18next: 11.x
-    react-router-dom: 6.x
-    rxjs: 6.x
-  languageName: unknown
-  linkType: soft
 
 "@openmrs/esm-routes@npm:6.1.1-pre.2721":
   version: 6.1.1-pre.2721
@@ -5766,25 +5726,6 @@ __metadata:
   checksum: 10/23f225b13a6b26e6724acd06467c324e2ea3016f873686a6642ba9c9bbf9eb7a75bd14f0d880f49b3be18d8bbc112a37f4117151c4d68632127e16234d3a3ebb
   languageName: node
   linkType: hard
-
-"@openmrs/esm-system-admin-app@workspace:packages/esm-system-admin-app":
-  version: 0.0.0-use.local
-  resolution: "@openmrs/esm-system-admin-app@workspace:packages/esm-system-admin-app"
-  dependencies:
-    "@carbon/react": "npm:^1.37.0"
-    lodash-es: "npm:^4.17.21"
-    swr: "npm:^2.2.5"
-  peerDependencies:
-    "@openmrs/esm-framework": 6.x
-    dayjs: 1.x
-    react: 18.x
-    react-dom: 18.x
-    react-i18next: 11.x
-    react-router-dom: 6.x
-    rxjs: 6.x
-    swr: 2.x
-  languageName: unknown
-  linkType: soft
 
 "@openmrs/esm-translations@npm:6.1.1-pre.2721":
   version: 6.1.1-pre.2721
@@ -9266,9 +9207,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@zimhospicare/admin-tools@workspace:.":
+"@zimhospicare/esm-admin-tools@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@zimhospicare/admin-tools@workspace:."
+  resolution: "@zimhospicare/esm-admin-tools@workspace:."
   dependencies:
     "@openmrs/esm-framework": "npm:next"
     "@playwright/test": "npm:^1.50.1"
@@ -9319,6 +9260,65 @@ __metadata:
     typescript: "npm:^4.9.5"
     webpack: "npm:^5.90.3"
     webpack-cli: "npm:^5.1.4"
+  languageName: unknown
+  linkType: soft
+
+"@zimhospicare/esm-openconceptlab-app@workspace:packages/esm-admin-openconceptlab-app":
+  version: 0.0.0-use.local
+  resolution: "@zimhospicare/esm-openconceptlab-app@workspace:packages/esm-admin-openconceptlab-app"
+  dependencies:
+    "@carbon/react": "npm:^1.37.0"
+    lodash-es: "npm:^4.17.21"
+    swr: "npm:^2.2.5"
+  peerDependencies:
+    "@openmrs/esm-framework": 6.x
+    dayjs: 1.x
+    react: 18.x
+    react-dom: 18.x
+    react-i18next: 11.x
+    react-router-dom: 6.x
+    rxjs: 6.x
+    swr: 2.x
+  languageName: unknown
+  linkType: soft
+
+"@zimhospicare/esm-reports-app@workspace:packages/esm-reports-app":
+  version: 0.0.0-use.local
+  resolution: "@zimhospicare/esm-reports-app@workspace:packages/esm-reports-app"
+  dependencies:
+    "@carbon/react": "npm:^1.33.1"
+    "@datasert/cronjs-matcher": "npm:^1.2.0"
+    "@datasert/cronjs-parser": "npm:^1.2.0"
+    cronstrue: "npm:^2.41.0"
+    dayjs: "npm:^1.8.36"
+    lodash-es: "npm:^4.17.21"
+    react-image-annotate: "npm:^1.8.0"
+  peerDependencies:
+    "@openmrs/esm-framework": "*"
+    dayjs: 1.x
+    react: 18.x
+    react-i18next: 11.x
+    react-router-dom: 6.x
+    rxjs: 6.x
+  languageName: unknown
+  linkType: soft
+
+"@zimhospicare/esm-system-admin-app@workspace:packages/esm-system-admin-app":
+  version: 0.0.0-use.local
+  resolution: "@zimhospicare/esm-system-admin-app@workspace:packages/esm-system-admin-app"
+  dependencies:
+    "@carbon/react": "npm:^1.37.0"
+    lodash-es: "npm:^4.17.21"
+    swr: "npm:^2.2.5"
+  peerDependencies:
+    "@openmrs/esm-framework": 6.x
+    dayjs: 1.x
+    react: 18.x
+    react-dom: 18.x
+    react-i18next: 11.x
+    react-router-dom: 6.x
+    rxjs: 6.x
+    swr: 2.x
   languageName: unknown
   linkType: soft
 
